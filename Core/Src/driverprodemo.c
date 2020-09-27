@@ -19,11 +19,11 @@ static void disp12_CGRAM(uchar x, uchar y, uchar num);
 
 //LCD Driver Demo
 /********************************************************************************
-*** Function  Name  £ºvoid LCD_Init(void);
-*** Function	    £ºGPIO Initialization
-*** Input  parameter£ºNull
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name  ï¼švoid LCD_Init(void);
+*** Function	    ï¼šGPIO Initialization
+*** Input  parameterï¼šNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:Init the MCU GPIO Port and the LCD driver
 ********************************************************************************/
@@ -38,11 +38,11 @@ void LCD_Init(void)
 }
 
 /********************************************************************************
-*** Function  Name  £ºvoid Delay_us(uint32_t us);
-*** Function	    £ºDelay_Time
-*** Input  parameter£ºus:time
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name  ï¼švoid Delay_us(uint32_t us);
+*** Function	    ï¼šDelay_Time
+*** Input  parameterï¼šus:time
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -52,11 +52,11 @@ void Delay_us(uint32_t us)
 }
 
 /********************************************************************************
-*** Function  Name  £ºvoid Delay_ms(uint32_t ms);
-*** Function        £ºDelay_Time
-*** Input  parameter£ºms:time
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name  ï¼švoid Delay_ms(uint32_t ms);
+*** Function        ï¼šDelay_Time
+*** Input  parameterï¼šms:time
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -67,11 +67,11 @@ void Delay_ms(uint32_t ms)
 }
 
 /********************************************************************************
-*** Function  Name   £ºvoid LCD_WriteCmd(uint8_t Cmd);
-*** Function        £ºControl the commend  input
-*** Input  parameter£ºCmd:Command Input 8 bit
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name   ï¼švoid LCD_WriteCmd(uint8_t Cmd);
+*** Function        ï¼šControl the commend  input
+*** Input  parameterï¼šCmd:Command Input 8 bit
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -88,11 +88,11 @@ void LCD_WriteCmd(uint8_t Cmd)
 }
 
 /********************************************************************************
-*** Function  Name  £ºvoid LCD_WriteDat(uint8_t data);
-*** Function        £ºControl the data  input
-*** Input  parameter£ºDat:Data Input 8 bit
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name  ï¼švoid LCD_WriteDat(uint8_t data);
+*** Function        ï¼šControl the data  input
+*** Input  parameterï¼šDat:Data Input 8 bit
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -109,11 +109,11 @@ void LCD_WriteDat(uint8_t Dat)
 }
 
 /********************************************************************************
-*** Function  Name  £ºuchar LCD_ReadData();
+*** Function  Name  ï¼šuchar LCD_ReadData();
 *** Function        : Read  Data 
 *** Input  parameter: Null
-*** Ouput  parameter£ºNull
-*** Return parameter£ºLCD_Data:the return LCD_Data
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šLCD_Data:the return LCD_Data
 *					  LCD_Status:the registe Status
 ***
 *** description:
@@ -160,10 +160,10 @@ uint8_t LCD_ReadData()
 }
 
 /********************************************************************************
-*** Function  Name  £ºvoid LCD_CheckBusy(void)
+*** Function  Name  ï¼švoid LCD_CheckBusy(void)
 *** Function	    : Read the System Buffer status
 *** Input  parameter: Null
-*** Ouput  parameter£ºNull
+*** Ouput  parameterï¼šNull
 *** Return parameter: LCD_Status:the Buffer status
 *				
 ***
@@ -178,13 +178,13 @@ void LCD_CheckBusy(void)
 }
 
 /********************************************************************************
-*** Function  Name      £ºvoid LCD_Display_Nums(uint8_t x, uint8_t y, uint8_t num);
-*** Function	       £ºLCD display Numbers
+*** Function  Name      ï¼švoid LCD_Display_Nums(uint8_t x, uint8_t y, uint8_t num);
+*** Function	       ï¼šLCD display Numbers
 *** Input  parameter: x:the Abscissa
 *		      y:the Ordinate
 *		    num:display number
-*** Ouput  parameter£ºLCD display number
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šLCD display number
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -196,13 +196,13 @@ void LCD_Display_Nums(uint8_t x, uint8_t y, uint8_t num)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_Display_String(uint8_t x, uint8_t y, uint8_t* str);
-*** Function	        £ºLCD display String
+*** Function  Name	ï¼švoid LCD_Display_String(uint8_t x, uint8_t y, uint8_t* str);
+*** Function	        ï¼šLCD display String
 *** Input  parameter: x:the Abscissa
 *		      y:the Ordinate
 *		    str:display the String what you want
-*** Ouput  parameter£ºLCD display string
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šLCD display string
+*** Return parameterï¼šNull
 ***
 *** description:when you use the function,you need to add LCD_Clear() before.
                 
@@ -218,11 +218,11 @@ void LCD_Display_String(uint8_t x, uint8_t y, uint8_t* str)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_Clear(void)
-*** Function		£ºClear the LCD display
+*** Function  Name	ï¼švoid LCD_Clear(void)
+*** Function		ï¼šClear the LCD display
 *** Input  parameter: Null
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -233,11 +233,11 @@ void LCD_Clear(void)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_BLK_Open(void)
-*** Function		£ºOpen the behind light
+*** Function  Name	ï¼švoid LCD_BLK_Open(void)
+*** Function		ï¼šOpen the behind light
 *** Input  parameter: Null
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -248,11 +248,11 @@ void LCD_BLK_Open(void)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_BLK_Close(void)
-*** Function		£ºClose the behind light
+*** Function  Name	ï¼švoid LCD_BLK_Close(void)
+*** Function		ï¼šClose the behind light
 *** Input  parameter: Null
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -263,13 +263,13 @@ void LCD_BLK_Close(void)
 }
 
 /********************************************************************************
-*** Function  Name	£ºstatic void disp12_CGRAM(uchar x,uchar y,uchar num)
-*** Function		£ºdisplay the 12-fontsize
-*** Input  parameter£ºx:the Abscissa
+*** Function  Name	ï¼šstatic void disp12_CGRAM(uchar x,uchar y,uchar num)
+*** Function		ï¼šdisplay the 12-fontsize
+*** Input  parameterï¼šx:the Abscissa
 *		      y:the Ordinate
 *                   num:the font number in lcdfont.h
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -281,42 +281,43 @@ static void disp12_CGRAM(uchar x,uchar y,uchar num)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_Display_Imag(const uchar* ptr);
-*** Function		£ºLCD display Images
+*** Function  Name	ï¼švoid LCD_Display_Imag(const uchar* ptr);
+*** Function		ï¼šLCD display Images
 *** Input  parameter: ptr:the pictures parameters
-*** Ouput  parameter£ºLCD display image
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šLCD display image
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
-void LCD_Display_Imag(const uchar* ptr)
+void LCD_Display_Imag(const uint8_t site)
 {
-  unsigned int i,j,k;
-  if(ptr==(void*)0)   
-  LCD_Clear();
-  LCD_WriteCmd(0x34);
-  for(i=0x80,j=0;j<32;j++)
+  uint8_t* ptr;
+	unsigned int i,k;
+  switch(site)
   {
-    LCD_WriteCmd(i++);
+  case 0:ptr = logo;break;
+  default:break;
+  }
+
+  LCD_WriteCmd(0x34);
+  for(i=0;i<32;i++)
+  {
+    LCD_WriteCmd(0x80+i);
     LCD_WriteCmd(0x80);
     for(k=0;k<16;k++)
     {
-      if(ptr==(void*)0)
-        LCD_WriteDat(*ptr++);
-      else
-        LCD_WriteCmd(0x00);
+        LCD_WriteDat(*ptr);
+        ptr++;
     }
   }
-  for(i=0x80,j=0;j<32;j++)
+  for(i=0;i<32;i++)
   {
-    LCD_WriteCmd(i++);
+    LCD_WriteCmd(0x80+i);
     LCD_WriteCmd(0x88);
     for(k=0;k<16;k++)
     {
-      if(ptr==(void*)0)
-        LCD_WriteDat(*ptr++);
-      else
-        LCD_WriteCmd(0x00);
+        LCD_WriteDat(*ptr);
+        ptr++;
     }
   }
   LCD_WriteCmd(0x36); 
@@ -326,13 +327,13 @@ void LCD_Display_Imag(const uchar* ptr)
 
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_DisplayFont12(uchar x,uchar y,uint8_t t)
-*** Function		£ºDisplay the Chinese Fontzise of 12
+*** Function  Name	ï¼švoid LCD_DisplayFont12(uchar x,uchar y,uint8_t t)
+*** Function		ï¼šDisplay the Chinese Fontzise of 12
 *** Input  parameter: x:the Abscissa
 		      y:the Ordinate
                       t:the Chinese font in lcdfont place
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:but the function only to make 4 fonts,and you need to make up
                 the 32 hexs in the last,add 0x00
@@ -352,12 +353,12 @@ void LCD_DisplayFont12(uchar x,uchar y,uint8_t t)
 }
 
 /********************************************************************************
-*** Function  Name	£ºstatic void LCD_DisplayFont(uchar *CGRAM_ZIKU,uint8_t t)
-*** Function		£ºinput the 12-size or others font 
-*** Input  parameter£º*CGRAM_ZIKU:the font what you want to input
+*** Function  Name	ï¼šstatic void LCD_DisplayFont(uchar *CGRAM_ZIKU,uint8_t t)
+*** Function		ï¼šinput the 12-size or others font 
+*** Input  parameterï¼š*CGRAM_ZIKU:the font what you want to input
                                 t:the font's number
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:you can revise CGRAM_ZIKU1X in lcdfont.h via matrix software
 ********************************************************************************/
@@ -378,11 +379,11 @@ static void LCD_DisplayFont(uchar *CGRAM_ZIKU,uint8_t t)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid LCD_Init(void);
-*** Function		£ºGPIO Initialization
-*** Input  parameter£ºNull
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name	ï¼švoid LCD_Init(void);
+*** Function		ï¼šGPIO Initialization
+*** Input  parameterï¼šNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -411,12 +412,12 @@ void LCD_DrawPoiot(uchar dat)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid set_Cursor(uchar x,uchar y)
-*** Function		£ºGPIO Initialization
-*** Input  parameter£ºx:the Abscissa
+*** Function  Name	ï¼švoid set_Cursor(uchar x,uchar y)
+*** Function		ï¼šGPIO Initialization
+*** Input  parameterï¼šx:the Abscissa
 *		              y:the Ordinate
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:make sure the input of location
 ********************************************************************************/
@@ -436,11 +437,11 @@ static void set_Cursor(uchar x,uchar y)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid Fill_GDRAM(uchar dat)
-*** Function		£ºGPIO Initialization
-*** Input  parameter£ºNull
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name	ï¼švoid Fill_GDRAM(uchar dat)
+*** Function		ï¼šGPIO Initialization
+*** Input  parameterï¼šNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -469,11 +470,11 @@ void Fill_GDRAM(uchar dat)
 }
 
 /********************************************************************************
-*** Function  Name	£ºvoid Fill_Point(uint8_t x,uint8_t y,uchar color)
-*** Function		£ºGPIO Initialization
-*** Input  parameter£ºNull
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name	ï¼švoid Fill_Point(uint8_t x,uint8_t y,uchar color)
+*** Function		ï¼šGPIO Initialization
+*** Input  parameterï¼šNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
@@ -526,11 +527,11 @@ void Fill_Point(uint8_t x,uint8_t y,uchar color)
 }
 
 /********************************************************************************
-*** Function  Name	£ºstatic void LCD_RST()
-*** Function		£ºLCD Reset control
-*** Input  parameter£ºNull
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Function  Name	ï¼šstatic void LCD_RST()
+*** Function		ï¼šLCD Reset control
+*** Input  parameterï¼šNull
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:control the Reset GPIO
 ********************************************************************************/
@@ -545,9 +546,9 @@ static void LCD_RST()
 /********************************************************************************
 *** Function  Name	:static void SendByte(uint8_t byte)
 *** Function		:MCU control send the byte to control LCD
-*** Input  parameter£ºbyte : the MCU send byte control the GPIO
-*** Ouput  parameter£ºNull
-*** Return parameter£ºNull
+*** Input  parameterï¼šbyte : the MCU send byte control the GPIO
+*** Ouput  parameterï¼šNull
+*** Return parameterï¼šNull
 ***
 *** description:
 ********************************************************************************/
